@@ -1,7 +1,63 @@
 head {
-  background-color: rgb(95, 154, 212);
+  background-color: rgb(73, 140, 206);
 }
 
 body {
-  background-color: rgb(105, 135, 168);
+  background-color: rgb(73, 142, 216);
+}
+
+.card {
+  background-color: rgba(160, 243, 211, 0.056);
+}
+
+.container {
+  position: relative;
+  width: 90%;
+}
+
+.image {
+  opacity: 0;
+  display: block;
+  width: 90%;
+  height: auto;
+  transition: .9s ease;
+  backface-visibility: 90%;
+  -webkit-backface-visibility: 90%;
+  -webkit-transition: .9s ease;
+  -moz-transition: .9s ease;
+  -ms-transition: .9s ease;
+  -o-transition: .9s ease;
+}
+
+.middle {
+  transition: 1s ease;
+  opacity: .60;
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  transform: translate(-30%, -40%);
+  -ms-transform: translate(-30%, -40%);
+  text-align: justify;
+  -webkit-transform: translate(-30%, -40%);
+  -moz-transform: translate(-30%, -40%);
+  -o-transform: translate(-30%, -40%);
+  -webkit-transition: 1s ease;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
+}
+
+.container:hover .image {
+  opacity: .30;
+}
+
+.container:hover .center {
+  opacity: 0;
+}
+
+.text {
+  background-color: rgb(36, 39, 36);
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
 }
