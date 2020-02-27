@@ -3,16 +3,21 @@ head {
 }
 
 body {
-  background-color: rgb(73, 142, 216);
+  background-color: rgb(13, 58, 107);
 }
 
 .card {
   background-color: rgba(160, 243, 211, 0.056);
+  color: white;
+}
+.h3 {
+  color: azure;
 }
 
 .container {
   position: relative;
   width: 90%;
+  color: black;
 }
 
 .image {
@@ -48,16 +53,46 @@ body {
 }
 
 .container:hover .image {
-  opacity: .30;
+  opacity: 1;
 }
 
-.container:hover .center {
+.container:hover .top {
   opacity: 0;
+  background-size: 50px;
 }
 
 .text {
   background-color: rgb(36, 39, 36);
+  background-position: top;
+  background-size: 50px;
   color: white;
-  font-size: 18px;
-  padding: 12px 24px;
+  font-size: 22px;
+  padding: 30px 30px;
+}
+
+.btn {
+  background: #012f4e;
+  background-image: -webkit-linear-gradient(top, #0b315c, #092030);
+  background-image: -moz-linear-gradient(top, #10344d, #0d293b);
+  background-image: -ms-linear-gradient(top, #0c2c42, #0d3047);
+  background-image: -o-linear-gradient(top, #0d2636, #071d2c);
+  background-image: linear-gradient(to bottom, #0c2536, #0b2333);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
 }
