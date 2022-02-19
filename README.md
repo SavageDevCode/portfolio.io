@@ -2,12 +2,12 @@
 
 
 Frank Savage
-Uc Irvine Student Developer
+Full Stack Developer
 
 contact info:
-154 Booksdale St. 
-Costa Mesa, Ca.
-92627 USA
+26398 Waterford Circle
+Lake Forest, CA.
+92630 USA
 gotSavaged@gmail.com
 
-This is my website with my story. Learning how to develop through a fast, rigorous and very intense boot camp class at UC Irvine. 
+
