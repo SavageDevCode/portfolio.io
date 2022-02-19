@@ -28,15 +28,15 @@ body {
   transition: .9s ease;
   backface-visibility: 90%;
   -webkit-backface-visibility: 90%;
-  -webkit-transition: .9s ease;
-  -moz-transition: .9s ease;
-  -ms-transition: .9s ease;
-  -o-transition: .9s ease;
+  -webkit-transition: .5s ease;
+  -moz-transition: .5s ease;
+  -ms-transition: .5s ease;
+  -o-transition: .5s ease;
 }
 
 .middle {
-  transition: 1s ease;
-  opacity: .60;
+  transition: .75s ease;
+  opacity: .65;
   position: absolute;
   top: 30%;
   left: 60%;
@@ -46,9 +46,9 @@ body {
   -webkit-transform: translate(-30%, -40%);
   -moz-transform: translate(-30%, -40%);
   -o-transform: translate(-30%, -40%);
-  -webkit-transition: 1s ease;
-  -moz-transition: 1s ease;
-  -ms-transition: 1s ease;
+  -webkit-transition: .75s ease;
+  -moz-transition: .75s ease;
+  -ms-transition: .75s ease;
   -o-transition: 1s ease;
 }
 
